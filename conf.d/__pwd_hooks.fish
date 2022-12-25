@@ -1,5 +1,5 @@
 function __pwd_hooks --on-variable PWD
-  set hooks (functions | grep __pwd_hooks_)
+  set hooks (functions -a | grep __pwd_hooks_)
 
   if [ $status -eq 1 ]
     return
