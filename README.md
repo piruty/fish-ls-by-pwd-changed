@@ -1,2 +1,6 @@
-# fish-ls-by-pwd-changed
-Run `ls` command after $PWD changed
+# fish-pwd-hooks-pwd-changed
+
+Hooks for commands after $PWD updated
+
+## Description
+
